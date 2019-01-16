@@ -2878,6 +2878,11 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.1.tgz#87416ae817de957a3f249b3b5ca475d4aaed6042"
   integrity sha512-L72mmmEayPJBejKIWe2pYtGis5r0tQ5NaJekdhyXgeMQTpJoBsH0NL4ElY2LfSoV15xeQWKQ+XTTOZdyero5Xg==
 
+core-js@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.2.tgz#267988d7268323b349e20b4588211655f0e83944"
+  integrity sha512-NdBPF/RVwPW6jr0NCILuyN9RiqLo2b1mddWHkUL+VnvcB7dzlnBJ1bXYntjpTGOgkZiiLWj2JxmOr7eGE3qK6g==
+
 core-js@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.3.0.tgz#fab83fbb0b2d8dc85fa636c4b9d34c75420c6d65"
@@ -10018,12 +10023,13 @@ simple-git@^1.85.0:
   dependencies:
     debug "^4.0.1"
 
-simplebar@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-3.1.1.tgz#ddd9d854205baf45cb6e4a62a5e8952218a0a9fa"
-  integrity sha512-R3PUPtpLp8kCqFTQcwoeL9YYpA4laa4zZHmJ8kMN1XLOXeydTddJ63292qMOxWfCI3Ecnuqds/g2xMoZL7vqIA==
+simplebar@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-3.1.2.tgz#2c4f075b454cbe80aabe3e522900c9942cb71931"
+  integrity sha512-PcuNoaoCdfT3klS8sumecKemOEGMHRjzP1WRO1oo4xrnNmR9tTQgEbnwQ3IrB5edn7dlCYLuU+6lWGAK4XTrNw==
   dependencies:
     can-use-dom "^0.1.0"
+    core-js "^2.6.2"
     lodash.debounce "^4.0.8"
     lodash.memoize "^4.1.2"
     lodash.throttle "^4.1.1"
@@ -10864,10 +10870,10 @@ stylelint-prettier@^1.0.6:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.5.0.tgz#d03f405a9af456a14fe4f58e5d2eb9c23ba3a7da"
-  integrity sha512-i8YhQd7IWWEacjUGvZycQ16c9NBj+Dbir1UwfQMlK1+5hr7crtxoo4j8TS8RR5ILP6g3bHSn24a8AvKrtFDBlQ==
+stylelint-scss@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.5.1.tgz#3759dbae8da4b03d8a9f60f5b8c098f23961db43"
+  integrity sha512-XNWKTU1a2EUNWdauxHPTJlGNNQzIbg48OTTIdBs5xTXxpbYAGtX/J+jBqMPjxfdySXijc/mexubuZ+ZinUGGgw==
   dependencies:
     lodash "^4.17.11"
     postcss-media-query-parser "^0.2.3"
